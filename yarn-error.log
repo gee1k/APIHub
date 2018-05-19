@@ -7117,7 +7117,7 @@ Lockfile:
 
 Trace: 
   Error: Command failed.
-  Exit code: 1
+  Exit code: 3
   Command: C:\Windows\system32\cmd.exe
   Arguments: /d /s /c eslint "**/*.js" && prettier-check "**/*.{js,json,md}"
   Directory: E:\Workspace\Gee1k\Me\APIHub

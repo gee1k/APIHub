@@ -2,8 +2,8 @@ const Router = require('koa-router')
 const router = new Router()
 const art = require('art-template')
 const path = require('path')
-const config = require('./config')
-const logger = require('./utils/logger')
+// const config = require('./config')
+// const logger = require('./utils/logger')
 
 let gitHash
 try {

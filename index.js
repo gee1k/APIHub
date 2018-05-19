@@ -5,7 +5,7 @@ const config = require('./config')
 
 const onerror = require('./middleware/onerror')
 const header = require('./middleware/header.js')
-const utf8 = require('./middleware/utf8.js')
+// const utf8 = require('./middleware/utf8.js')
 const template = require('./middleware/template.js')
 const memoryCache = require('./middleware/lru-cache.js')
 const redisCache = require('./middleware/redis-cache.js')
@@ -14,7 +14,7 @@ const debug = require('./middleware/debug.js')
 
 const router = require('./router')
 
-process.on('uncaughtException', e => {
+process.on('uncaughtException', (e) => {
   logger.error('uncaughtException: ' + e)
 })
 
@@ -61,7 +61,7 @@ if (config.cacheType === 'memory') {
       expire: config.cacheExpire,
       ignoreQuery: true,
       redis: config.redis,
-      onerror: e => {
+      onerror: (e) => {
         logger.error('Redis error: ', e)
       },
       onconnect: () => {
