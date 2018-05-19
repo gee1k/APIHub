@@ -2,8 +2,8 @@
 
 #### 首页（最新）
 
-举例: https://rss.now.sh/mzitu
-举例 2: https://rss.now.sh/mzitu/2
+举例: http://127.0.0.1:1200/mzitu
+举例 2: http://127.0.0.1:1200/mzitu/2
 
 路由: `/mzitu/`
 路由: `/mzitu/:page`
@@ -12,8 +12,8 @@
 
 #### 分类
 
-举例: https://rss.now.sh/mzitu/category/hot
-举例 2: https://rss.now.sh/mzitu/category/hot/3
+举例: http://127.0.0.1:1200/mzitu/category/hot
+举例 2: http://127.0.0.1:1200/mzitu/category/hot/3
 
 路由: `/mzitu/category/:category`
 路由: `/mzitu/category/:category/:page`
@@ -28,14 +28,14 @@ page，页码[可选，默认第一页]
 
 #### 所有专题
 
-举例: https://rss.now.sh/mzitu/tags
+举例: http://127.0.0.1:1200/mzitu/tags
 
 路由: `/mzitu/tags`
 
 #### 专题详情
 
-举例: https://rss.now.sh/mzitu/tag/shishen
-举例 2: https://rss.now.sh/mzitu/tag/shishen/2
+举例: http://127.0.0.1:1200/mzitu/tag/shishen
+举例 2: http://127.0.0.1:1200/mzitu/tag/shishen/2
 
 路由: `/mzitu/tag/:tag`
 路由: `/mzitu/tag/:tag/:page`
@@ -46,7 +46,7 @@ page，页码[可选，默认第一页]
 
 #### 详情
 
-举例: https://rss.now.sh/mzitu/129452
+举例: http://127.0.0.1:1200/mzitu/129452
 
 路由: `/mzitu/:id`
 
