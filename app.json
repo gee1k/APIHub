@@ -1,0 +1,14 @@
+{
+  "name": "APIHub",
+  "description": "Collect useful API",
+  "repository": "https://github.com/gee1k/APIHub",
+  "website": "https://rsshub.js.org/",
+  "logo": "https://s1.svend.cc/logo.png",
+  "keywords": ["API"],
+  "env": {
+    "PORT": {
+      "value": "80",
+      "required": false
+    }
+  }
+}
